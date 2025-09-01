@@ -1,6 +1,6 @@
 node {
     stage {
-        git url: https://github.com/LiorAtari/scripted-pipeline.git
+        git url: 'https://github.com/LiorAtari/scripted-pipeline.git'
     }
     stage ("Installing Dependencies") {
             sh "npm install"
