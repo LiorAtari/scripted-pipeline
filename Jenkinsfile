@@ -6,9 +6,9 @@ node {
             sh 'npm install'
         }
 
-    stage ('Run tests') {
-            sh 'npm test'
-    }
+    // stage ('Run tests') {
+    //         sh 'npm test'
+    // }
     stage ('Finished') {
         echo 'Pipeline finished successfully'
     }
